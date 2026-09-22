@@ -1,0 +1,6 @@
+*.o
+program
+program_static
+program_shared
+build/
+
