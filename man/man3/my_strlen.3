@@ -1,0 +1,29 @@
+.TH MY_STRLEN 3
+.SH NAME
+my_strlen - calculate length of the string
+
+.SH SYNOPSIS
+#include <string_utils.h>
+
+int my_strlen(const char *str);
+
+.SH DESCRIPTION
+calculates the no. of the characters
+present in the string exclude null and terminating characters
+
+.SH RETURN VALUE
+returns the value of the string
+
+.SH EXAMPLE
+#include <stdio.h>
+#include "string_utils.h"
+
+int main(){
+   char *text="hello";
+   printf("%d",my_strlen(text));
+   return 0;
+}
+
+.SH AUTHOR
+OS PA01
+
